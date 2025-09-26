@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="320dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/dialog_background"
+    android:padding="25dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="О задании"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="#FF9500"
+        android:gravity="center"
+        android:layout_marginBottom="15dp" />
+
+    <TextView
+        android:id="@+id/variant"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Загрузка информации..."
+        android:textSize="20sp"
+        android:textColor="#FFFFFF"
+        android:lineSpacingExtra="4dp"
+        android:gravity="center"
+        android:layout_marginBottom="10dp" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="20sp"
+        android:textColor="#FFFFFF"
+        android:lineSpacingExtra="4dp"
+        android:gravity="center"
+        android:layout_marginBottom="10dp" />
+
+    <TextView
+        android:id="@+id/task"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="20sp"
+        android:textColor="#FFFFFF"
+        android:lineSpacingExtra="4dp"
+        android:gravity="center"
+        android:layout_marginBottom="10dp" />
+
+    <Button
+        android:id="@+id/btnClose"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="Закрыть"
+        android:textSize="14sp"
+        android:background="@drawable/button_round_gray_light"
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>

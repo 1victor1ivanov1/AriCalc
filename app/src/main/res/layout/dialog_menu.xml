@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/dialog_background"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Меню"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:layout_marginBottom="20dp" />
+
+    <Button
+        android:id="@+id/btnAboutAuthor"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Об авторе"
+        android:textSize="16sp"
+        android:background="@drawable/button_round_orange"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="10dp" />
+
+    <Button
+        android:id="@+id/btnAboutUser"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="О пользователе"
+        android:textSize="16sp"
+        android:background="@drawable/button_round_orange"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="10dp" />
+
+    <Button
+        android:id="@+id/btnExit"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Выйти"
+        android:textSize="16sp"
+        android:background="@drawable/button_round_orange"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="10dp" />
+
+    <Button
+        android:id="@+id/btnCancel"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="Отмена"
+        android:textSize="14sp"
+        android:background="@drawable/button_round_gray_light"
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>
